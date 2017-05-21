@@ -1,10 +1,7 @@
 build/
 .gradle/
 run/
-gradlew*
-gradle
 *.iml
 *.ipr
 *.iws
-gradle.properties
 out/
