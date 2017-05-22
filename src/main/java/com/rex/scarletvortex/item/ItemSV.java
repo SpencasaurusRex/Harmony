@@ -16,8 +16,6 @@ public abstract class ItemSV extends Item
     {
         this.name = name;
         ItemUtil.registerItem(this, name);
-        ModelResourceLocation mrl = new ModelResourceLocation(getRegistryName(), "inventory");
-        ModelLoader.setCustomModelResourceLocation(this, 0, mrl);
     }
 
     public String getName()
