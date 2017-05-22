@@ -1,7 +1,7 @@
 {
   "modListVersion": 2,
   "modList": [{
-    "modid": "ScarletVortex",
+    "modid": "scarletvortex",
     "name": "Scarlet Vortex",
     "description": "An attempt to recreate the essence of Factorio in Minecraft",
     "version": "1.10.2-0.1",
