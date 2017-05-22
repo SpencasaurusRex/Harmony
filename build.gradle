@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.10.2-0.1"
 group= "com.rex.scarletvortex" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "ScarletVortex"
+archivesBaseName = "scarletvortex"
 
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {

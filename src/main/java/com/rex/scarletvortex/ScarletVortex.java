@@ -2,6 +2,7 @@ package com.rex.scarletvortex;
 
 import com.rex.scarletvortex.configuration.ConfigurationHandler;
 import com.rex.scarletvortex.proxy.IProxy;
+import com.rex.scarletvortex.utility.ItemUtil;
 import com.rex.scarletvortex.utility.LogHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -24,6 +25,7 @@ public class ScarletVortex
     public void preInit(FMLPreInitializationEvent event)
     {
         new ConfigurationHandler(event.getSuggestedConfigurationFile());
+        ItemUtil.init();
         LogHelper.info("PreInitialization Complete");
     }
 
